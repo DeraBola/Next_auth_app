@@ -57,7 +57,7 @@ function login() {
             </span>
           </div>
           {formik.errors.email && formik.touched.email ? <span className="text-rose-500" >{formik.errors.email}</span>: <></>}
-          <div className=" flex border rounded-xl relative [&>*]:text-slate-700 [&>*:hover]:text-gray-700">
+          <div className={"flex border rounded-xl relative [&>*]:text-slate-700 [&>*:hover]:text-gray-700"}>
             <input
               className="w-full py-2 px-2 border border-gray-100 rounded-xl bg-slate-50 focus:outline-none "
               type={`${show ? "text" : "password"}`}
